@@ -28,7 +28,8 @@
 # tarball in the current directory and the script will use that.
 #
 #===============================================================================
-
+mkdir build/xcode/third_party/boost
+cd build/xcode/third_party/boost
 BOOST_VERSION=1.67.0
 
 BOOST_LIBS="atomic chrono date_time exception filesystem program_options random signals system thread test"
