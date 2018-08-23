@@ -30,7 +30,7 @@
 #===============================================================================
 
 BUILD_DIR=build/xcode/third_party/boost
-mkdir $BUILD_DIR
+mkdir -p $BUILD_DIR
 cd $BUILD_DIR
 
 BOOST_VERSION=1.67.0
