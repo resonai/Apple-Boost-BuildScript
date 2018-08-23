@@ -29,6 +29,10 @@
 #
 #===============================================================================
 
+BUILD_DIR=build/xcode/third_party/boost
+mkdir -p $BUILD_DIR
+cd $BUILD_DIR
+
 BOOST_VERSION=1.67.0
 
 BOOST_LIBS="atomic chrono date_time exception filesystem program_options random signals system thread test"
